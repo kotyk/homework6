@@ -1,0 +1,458 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #282828;
+	height: 100%;
+}
+
+.wrapper{
+	background: #fff;
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 44px;
+	padding-top: 13px;
+	box-sizing: border-box;
+}
+
+.header_up{
+	width: 905px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.phone_number{
+	font-size: 18px;
+	font-family: Arial;
+	color: #5e696d;
+	margin-left: 7px;
+}
+
+.phone_number_2{
+	font-size: 18px;
+	font-family: Arial;
+	color: #5e696d;
+	margin-left: 6px;
+}
+
+.phone_icon{
+	background: linear-gradient(to top, #1d6282, #0c3357);
+	width: 21px;
+	height: 21px;
+	border-radius: 100%;
+	text-align: center;
+	margin-left: 2px;
+}
+
+.authorization{
+	width: 487px;
+	height: 26px;
+	background: linear-gradient(to top, #0d3458, #1f6685);
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+	font-family: "Lucida sans unicode", sans-serif;
+	padding-left: 5px;
+	margin-left: 18px;
+	margin-right: 15px;
+	display: flex;
+	align-items: center;
+}
+
+[type="text"], [type="password"]{
+	width: 110px;
+	height: 14px;
+	border: 1px solid #6c7e8c;
+	padding-left: 4px;
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+.entrance {
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+	margin-left: 4px;
+}
+
+.with_border{
+	padding-right: 6px;
+	border-right: 1px solid #fff;
+}
+
+.forget_password{
+	color: #bfbfbf;
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+.site_navigation{
+	width: 77px;
+	height: 20px;
+	border: 1px solid #cad0d2;
+	border-radius: 15px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+.site_navigation> a{
+	margin-right: 2px;
+}
+
+.img{
+	margin-top: 8px;
+	margin-bottom: 1px;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 908px;
+	height: 33px;
+	background: linear-gradient(to bottom, rgba(13,22,66,0.87) 0%,rgba(77,86,99,1) 3%,rgba(80,88,96,1) 6%,rgba(70,77,84,1) 9%,rgba(45,50,54,1) 15%,rgba(42,46,50,1) 18%,rgba(19,21,23,1) 53%,rgba(3,3,3,1) 88%,rgba(1,1,1,1) 94%,rgba(10,16,48,1) 97%,rgba(5,8,25,0.7) 100%);	margin: 0;
+	border: 1px solid #2c345a;
+	border-radius: 5px;
+	box-shadow: 0.1em 0.1em 5px #4d5663;
+	margin-bottom: 12px;
+	padding-top: 2px;
+}
+
+nav>ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li{
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 12px;
+	padding-right: 13px;
+	display: inline-block;
+}
+
+.menu li>a{
+	color: #b1bcc0;
+	text-decoration: none;
+}
+
+.menu li:hover{
+	background: linear-gradient(to top, #0d3458, #1f6787);
+	border-radius: 15px;
+}
+
+.menu li>a:hover{
+	color: #fff;
+}
+
+.counter{
+	display: flex;
+	align-items: center;
+	margin-left: 53px;
+	margin-right: 14px;
+}
+
+.counter>span{
+	font-size: 11px;
+	font-family: Arial;
+	color: #929b9f;
+}
+
+.number, .number2{
+	color: #105484;
+	font-size: 12px;
+}
+
+.counter>img{
+	margin-right: 6px;
+}
+
+.goods{
+	margin-right: 13px;
+	letter-spacing: 1.2px;
+}
+
+.number2{
+	margin-left: 11px;
+}
+
+.content{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+aside{
+	width: 182px;
+}
+
+.copy_icon{
+	background: linear-gradient(to top, #1d6282, #0c3357);
+	width: 21px;
+	height: 21px;
+	border-radius: 100%;
+	text-align: center;
+	padding-top: 3px;
+	box-sizing: border-box;
+}
+
+.column_caption{
+	height: 24px;
+	border: 1px solid #8b979c;
+	border-radius: 13px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-left: 3px;
+	padding-right: 3px;
+	box-shadow: 0.1em  0.1em 4px #8c969a;
+	margin-bottom: 13px;
+}
+
+.column_caption>span{
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #114165;
+	font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+.tires, .wheels, .bolts{
+	width: 145px;
+	height: 27px;
+	border: 1px solid #8b979c;
+	border-radius: 13px;
+	display: flex;
+	align-items: center;
+	padding-left: 4px;
+}
+
+.tire_icon, .wheels_icon, .bolts_icon{
+	background: linear-gradient(to top, #1d6282, #0c3357);
+	width: 22px;
+	height: 22px;
+	border-radius: 100%;
+	text-align: center;
+	padding-top: 3px;
+	box-sizing: border-box;
+	margin-right: 3px;
+}
+
+.tires > span, .wheels > span, .bolts > span{
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #465961;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	letter-spacing: 1.1px;
+}
+
+.tires_list, .wheels_list, .bolts_list{
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 13px;
+	margin-top: 4px;
+	list-style-type: circle;
+	margin-left: 13px;
+	margin-bottom: 0px;
+}
+
+
+.tires_list > li, .wheels_list > li, .bolts_list > li{
+	margin-bottom: 5px;
+}
+
+
+.tires_list > li > a, .wheels_list > li > a, .bolts_list > li > a{
+	text-decoration: none;
+	color: #465961;
+	margin-left: -6px;
+}
+
+.tires_list>li>a:hover, .wheels_list >li>a:hover, .bolts_list>li>a:hover{
+	text-decoration: underline;
+	font-style: oblique;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+main{
+	width: 526px;
+	background: linear-gradient(to top, #94a7b0, #e4e7e8);
+	margin: 0 auto;
+	padding: 14px 0px 0px 24px;
+	box-sizing: border-box;
+}
+
+figure{
+	display: inline-block;
+	width: 138px;
+	height: 128px;
+	background-color: #fff;
+	border: 1px solid #bfc6c8;
+	border-radius: 5px;
+	margin-left: 0;
+	margin-top: 0;
+	padding-top: 3px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+figcaption{
+	color: #114165;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 3px;
+}
+
+.image{
+	display: inline-block;
+	width: 136px;
+	margin-right: 25px;
+	margin-bottom: 28px;
+}
+
+.image>p{
+	margin: 0;
+	text-align: center;
+}
+
+.image_text_up{
+	color: #206988;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 10px;
+}
+
+.iimage_text_down{
+	color: #1f2528;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 13px;
+}
+
+.column_caption_right{
+	justify-content: flex-start;
+}
+
+.column_caption_right .brands{
+	margin-left: 3px;
+	font-size: 14px;
+	color: #0c3256;
+}
+
+.tires_right{
+	margin-left: 12px;
+	width: 129px;
+}
+
+.tires_right>span{
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	color: #0c3256;
+}
+
+.brands_choice, .wheels_choice{
+	margin: 4px 0px 14px 18px;
+	color: #465961;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 13px;
+}
+
+.brands_choice>[type="checkbox"], .wheels_choice>[type="checkbox"]{
+	display: none;
+}
+
+.brands_choice>label, .wheels_choice>label{
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 2px;
+	padding-left: 27px;
+	position: relative;
+	margin-bottom: 1px;
+}
+
+label:before{
+	content: '  ';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-left: 2px solid #1c4360;
+	border-top: 2px solid #1c4360;
+	border-right: 1px solid #1c4360;
+	border-bottom: 1px solid #1c4360;
+	box-shadow: 0 0 2px;
+	position: absolute;
+	top: 7px;
+	left: 5px;
+}
+
+input[type=checkbox]:checked + label:before {
+	content: "\2713";
+	text-align: center;
+	font-size: 11px;
+	color: #1c4360;;
+	font-weight: bold;
+	line-height: 6px;
+}
+
+[type="submit"]{
+	background: linear-gradient(to top, #0e385d, #1f6787);
+	border-radius: 15px;
+	font-family: Arial;
+	font-size: 11px;
+	text-transform: uppercase;
+	color:#fff;
+	width: 83px;
+	height: 26px;
+	margin-left: 20px;
+	margin-top: 5px;
+	border: none;
+	box-shadow: 0 2px 6px rgb(190, 192,193);
+	cursor: pointer;
+}
+
+.partners{
+	margin: 43px auto;
+	margin-bottom: 22px;
+}
+
+.partners>img{
+	margin-right: 7px;
+	vertical-align: top;
+}
+
+footer{
+	height: 116px;
+	width: 910px;
+	background-color: #213a4d;
+	text-align: center;
+	padding-top: 8px;
+}
+
+footer>a{
+	color: #b6bfc2;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	padding-left: 13px;
+	padding-right: 6px;
+}
+
+footer>a:hover{
+	color: #448ca8;
+}
+
+.line{
+	width: 1px;
+	height: 11px;
+	background-color: #b6bfc2;
+	display: inline-block;
+}
+
+footer>p{
+	color: #754542;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+}
