@@ -178,9 +178,15 @@ nav>ul{
 	margin-left: 11px;
 }
 
+.img1{
+	margin-right: 4px;
+	margin-left: 2px;
+}
+
 .content{
 	display: flex;
 	flex-wrap: wrap;
+	padding-top: 2px;
 }
 
 aside{
@@ -314,7 +320,7 @@ figcaption{
 	display: inline-block;
 	width: 136px;
 	margin-right: 25px;
-	margin-bottom: 28px;
+	margin-bottom: 21px;
 }
 
 .image>p{
