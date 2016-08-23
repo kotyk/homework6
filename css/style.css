@@ -263,6 +263,7 @@ aside{
 .tires_list > li, .wheels_list > li, .bolts_list > li{
 	margin-bottom: 5px;
 	list-style-type: circle;
+	height: 20px;
 }
 
 .tires_list > li > a, .wheels_list > li > a, .bolts_list > li > a{
@@ -277,11 +278,13 @@ aside{
 	font-size: 14px;
 	font-weight: bold;
 	list-style-image: url(../img/list_marker2.png);
+
 }
 
 .tires_list>li>a:hover, .wheels_list>li>a:hover, .bolts_list>li>a:hover{
-	border-bottom: 2px solid #6a788b;
 	color: #0c3256;
+	  border-bottom: 2px solid #6a788b;
+
 }
         
 main{
